@@ -1,0 +1,120 @@
+.ba-header{
+	background: url(img/bg1.jpg) no-repeat;
+	width: 100%;
+    display:block;
+    height: 100%;
+    position: relative;
+    background-size: cover;
+    margin-left: 0;
+    margin-right: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 100%;
+    padding: 10%;
+    
+   
+     }
+     .menu{
+     	padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-user-select: space-around;
+   -moz-user-select: space-around;
+    -ms-user-select: space-around;
+   	 -o-user-select: space-around;
+   	 	user-select: space-around;
+     	    text-transform: uppercase;
+   	 	
+     }
+     .text{
+     	display: flex;
+     	-webkit-flex-flow: wrap;
+     	    -ms-flex-flow: wrap;
+     	        flex-flow: wrap;
+     	    -webkit-flex-direction: column;
+     	        -ms-flex-direction: column;
+     	            flex-direction: column;
+     	    color: #fff;
+     	    
+     	
+     }
+     h1{
+     	 text-transform: uppercase;
+     }
+     h6{
+     	opacity: 0.6;
+     }
+    a{
+    color: aliceblue;
+    text-decoration: none;
+     list-style: none; /* прячем маркеры */
+
+}
+a:visited{
+    color: aliceblue;
+    font-size: small;
+    
+}
+a:active{
+    color: aliceblue;
+}
+a:hover{
+    color: aliceblue;
+    text-decoration: underline;
+    }
+    #knopka_1{
+    	text-transform: uppercase;
+    	 border-radius: 10px;
+    	color: #fff;
+    	background: transparent;
+    	padding: 10px 20px;
+    	
+    }
+     #knopka_2{
+     	text-transform: uppercase;
+     	 border-radius: 10px;
+     	 color: #4169E0;
+     	 box-shadow: 1px 2px 30px -1px;
+     	 padding: 20px 30px;
+     	 
+     }
+      #knopka_3{
+    	text-transform: uppercase;
+    	 border-radius: 10px;
+    	 color: #fff;
+    	 background: transparent;
+    	 padding: 20px 30px;
+
+    }
+    #knopka_2:hover{
+    -webkit-box-shadow: 1px 2px 30px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 2px 30px -1px rgba(0,0,0,0.75);
+box-shadow: 1px 2px 30px -1px rgba(0,0,0,0.75);
+        
+    }
+    #knopka_1:hover{
+    -webkit-box-shadow: 1px 2px 30px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 2px 30px -1px rgba(0,0,0,0.75);
+box-shadow: 1px 2px 30px -1px rgba(0,0,0,0.75);
+    }
+    #knopka_3:hover{
+    -webkit-box-shadow: 1px 2px 30px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 2px 30px -1px rgba(0,0,0,0.75);
+box-shadow: 1px 2px 30px -1px rgba(0,0,0,0.75);
+    }
+    .ba-footer{
+    	background: url(img/bg2.jpg);
+    	
+    }
+  .text_footer{
+  	text-transform: uppercase;
+  	color: #fff;
+  	text-align:  center;
+  	
+  }
